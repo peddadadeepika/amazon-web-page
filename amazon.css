@@ -1,0 +1,147 @@
+body{
+    margin: 20px 20px;
+    font-family: Amazon Ember,Amazon Arabic Ember,Arial,sans-serif !important;
+}
+.header{
+    display: flex;
+    padding: 10px;
+    background-color: #1b2530;
+}
+.header nav{
+    margin: 20px 150px;
+}
+.header nav a{
+    margin: 20px;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+.header p{
+    font-size: 20px;
+    color: white;
+}
+.content1{
+    background-color: #000;
+    background-image: linear-gradient(to right, #000 40%, transparent 58%), url("poster1.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+}
+.paragraph {
+    color: white;
+    padding: 50px 5%;
+    position: relative;
+}
+.paragraph h1{
+    font-size: 50px;
+}
+.paragraph p{
+    font-size: 25px;
+}
+.paragraph button{
+    background-color: rgb(11, 156, 224);
+    border: none;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.paragraph button h1{
+    font-size: 20px;
+}
+.content2{
+    background-color: #000;
+    background-image: linear-gradient(to right,#000 40%, transparent 58%), url("poster2.jpeg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: cover;
+    
+}
+.rent-now{
+    color: white;
+    padding: 50px ;
+    position: relative;
+
+}
+.rent-now h1{
+    font-size: 50px;
+}
+.rent-now p{
+    font-size: 25px;
+}
+.rent-now button{
+    background-color: rgb(11, 156, 224);
+    border: none;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    
+}
+.rent-now button h1{
+    font-size: 20px;
+}
+.left-content{
+    display: flex;
+    margin: 30px;
+    position: relative;
+}
+.deepu h2{
+    font-size: 45px;
+}.deepu p{
+    font-size: 23px;
+
+}
+.images{
+    margin-left: 75px;
+}
+.images img:hover{
+    transform: translateY(-10px);
+}
+.footer{
+    background-color: rgb(6, 6, 6);
+    display: flex;
+    
+}
+.lucky{
+    margin: 40px 20px ;
+    background-color: rgb(6, 6, 6);
+}
+.rohan{
+    margin: 20px 20px;
+}
+.rohan h3{
+    font-size: 35px;
+    color: white;
+}
+.rohan p{
+    font-size: 20px;
+    color: white;
+}
+.rohan button{
+    background-color: rgb(11, 156, 224);
+    border: none;
+    height: 40px;
+    width: 250px;
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 100px;
+   
+}
+.rohan button h1{
+    font-size: 20px;   
+}
+.contact{
+    text-align: center;
+    background-color: #222;
+    padding: 30px;
+    height: 120px;
+}
+.contact p span{
+   color: rgb(11, 156, 224) ;
+}
+.contact p{
+    color: gray;
+}
